@@ -5,11 +5,11 @@ header {
 }
 
 .v-align-mid {
-    
+    padding-top: 1.5%;
 }
 
-.outline {
+/*.outline {
     outline-style: solid;
     outline-width: 3px;
     outline-color: rgba(0, 0, 0, 0.178);
-}
+}*/
