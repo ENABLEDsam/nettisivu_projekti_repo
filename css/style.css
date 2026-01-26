@@ -1,0 +1,15 @@
+header {
+    height: 113px;
+    position: sticky;
+    top: 0;
+}
+
+.v-align-mid {
+    
+}
+
+.outline {
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: rgba(0, 0, 0, 0.178);
+}
