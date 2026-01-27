@@ -1,0 +1,14 @@
+.footer{
+    background-color: rgb(175, 173, 173);
+}
+
+article{
+    text-align: center;
+    font-size: 24px;
+}
+
+.row{
+    display: flex;
+}
+
+
