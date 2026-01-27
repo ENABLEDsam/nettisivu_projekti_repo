@@ -46,7 +46,7 @@ header {
     outline-width: 3px;
     outline-color: rgba(0, 0, 0, 0.178);
 }*/
-=======
+
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -64,4 +64,3 @@ h2 {
     text-align: center;
 
 }
->>>>>>> menu
