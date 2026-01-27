@@ -46,7 +46,23 @@ header {
     outline-color: rgba(0, 0, 0, 0.178);
 }*/
 
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin: 2em auto;
+    text-align: center;
+    box-shadow: 0 0 30px rgb(97, 97, 97);
+    
+    
 
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+
+}
 
 .footer{
     background-color: rgb(175, 173, 173);
