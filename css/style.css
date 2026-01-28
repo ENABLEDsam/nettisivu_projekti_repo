@@ -30,6 +30,12 @@ header {
     outline-color: rgb(0, 0, 0);
 }
 
+.alert-pizeria {
+    color: #f5ff11;
+    background-color: #ff0000;
+    border-color: #f5ff11;
+}
+
 @media (max-width: 900px) {
    
     .big-view {
