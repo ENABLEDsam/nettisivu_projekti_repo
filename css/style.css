@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
-    margin: 2em auto;
+    margin: 1em 2em 2em 2em;
     text-align: center;
     box-shadow: 0 0 30px rgb(97, 97, 97);
     
