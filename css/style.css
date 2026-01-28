@@ -2,6 +2,7 @@ header {
     height: 113px;
     position: sticky;
     top: 0;
+    z-index: 9999;
 }
 
 .v-align-mid {
