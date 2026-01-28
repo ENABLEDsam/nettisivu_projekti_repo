@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Forte";
+    src: url(FORTE.TTF), format('truetype');
+}
+
 header {
     height: 113px;
     position: sticky;
@@ -34,7 +39,10 @@ header {
     color: #f5ff11;
     background-color: #ff0000;
     border-color: #f5ff11;
+    font-family: Forte;
 }
+
+
 
 .home {
     height: 500px;
