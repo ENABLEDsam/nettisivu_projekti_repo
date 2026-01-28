@@ -6,8 +6,18 @@
     text-align: center;
     box-shadow: 0 0 30px rgb(97, 97, 97);
     
-    
+}
 
+.card {
+    background-color: #ffd3a0;
+    
+}
+
+.tilaa-nappi {
+    background-color: #ff0000;
+    color:#F5FF11;
+    border-radius: 20px;
+    padding: 10px 20px;
 }
 
 h2 {
