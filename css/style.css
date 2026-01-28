@@ -36,6 +36,16 @@ header {
     border-color: #f5ff11;
 }
 
+.home {
+    height: 500px;
+}
+
+body {
+    background-image: url(food-3203445_1280.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
 @media (max-width: 900px) {
    
     .big-view {
