@@ -1,3 +1,5 @@
+/* Santerin Koodit */
+
 @font-face {
     font-family: "Forte";
     src: url(FORTE.TTF), format('truetype');
@@ -79,23 +81,48 @@ body {
     outline-color: rgba(0, 0, 0, 0.178);
 }*/
 
+/* jannen koodit */
+
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
-    margin: 2em auto;
+    margin: 1em 2em 2em 2em;
     text-align: center;
     box-shadow: 0 0 30px rgb(97, 97, 97);
     
+}
+
+.card {
+    background-color: #ffd3a0;
     
-
 }
 
-h2 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-
+.tilaa-nappi {
+    background-color: #ff0000;
+    color:#F5FF11;
+    border-radius: 20px;
+    padding: 10px 20px;
 }
+
+.menu-logo {
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+}            
+
+@media (max-width: 800px) {
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 600px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* artun koodit */
 
 .footer{
     background-color: rgb(175, 173, 173);
