@@ -37,6 +37,17 @@ header {
     outline-color: rgb(0, 0, 0);
 }
 
+.pizeria-button {
+    color: #f5ff11 !important;
+    background-color: #ff0000 !important;
+    border-color: #f5ff11 !important;
+}
+
+.pizeria-dropdown {
+    --bs-dropdown-bg: #ff0000;
+    --bs-dropdown-border-color: #f5ff11;
+}
+
 .alert-pizeria {
     color: #f5ff11;
     background-color: #ff0000;
@@ -64,10 +75,16 @@ a:hover {
     height: 500px;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 body {
     background-image: url(food-3203445_1280.jpg);
-    background-size: 100%;
+    background-position: center;
+    background-size: cover;
     background-attachment: fixed;
+    position: relative;
 }
 
 @media (max-width: 900px) {
@@ -125,7 +142,7 @@ body {
     justify-content: center;
 }            
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
     .cards {
         grid-template-columns: 1fr 1fr;
     }
