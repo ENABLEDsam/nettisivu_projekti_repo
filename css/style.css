@@ -7,8 +7,8 @@
 
 header {
     height: 113px;
-    position: sticky;
-    top: 0;
+    width: 100%;
+    position: fixed;
     z-index: 9999;
 }
 
@@ -76,7 +76,7 @@ a:hover {
 }
 
 html, body {
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 body {
@@ -84,7 +84,6 @@ body {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    position: relative;
 }
 
 @media (max-width: 900px) {
@@ -134,6 +133,7 @@ body {
     color:#F5FF11;
     border-radius: 20px;
     padding: 10px 20px;
+    border-color: #F5FF11;
 }
 
 .menu-logo {
