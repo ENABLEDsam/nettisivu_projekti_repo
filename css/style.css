@@ -44,7 +44,21 @@ header {
     font-family: Forte;
 }
 
+.the-funny-links {
+    font-family: Forte;
+}
 
+a:link {
+    color: #f5ff11;
+}
+
+a:visited {
+    color: #f5ff11;
+}
+
+a:hover {
+    color: #d3dd0e;
+}
 
 .home {
     height: 500px;
