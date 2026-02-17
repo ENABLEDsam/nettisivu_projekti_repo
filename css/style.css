@@ -12,6 +12,17 @@ header {
     z-index: 9999;
 }
 
+.footer-bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.spacer{
+    margin-top: 100px;
+}
+
 .v-align-mid {
     padding-top: 25px;
 }

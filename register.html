@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pentin pitsa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/pentinpizzaico.ico" type="image/x-icon">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+        <!-- header classi, jossa on linkit ja logo-->
+    <header class="outline">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-2 outline text-center">
+                <a href="index.html"><img src="img/pentinpizza.png" alt="logo"></a>
+            </div>
+            <div class="col-10 outline text-end fs-1">
+                <p class="v-align-mid big-view the-funny-links">
+                    <a href="index.html" rel="noopener noreferrer">home</a>
+                    <a href="#info" rel="noopener noreferrer">info</a>
+                    <a href="#menu" rel="noopener noreferrer">menu</a>
+                    <a href="#contact" rel="noopener noreferrer">kontakti</a>
+                    <a href="">kirjaudu</a>
+                    <a href="register.html">rekisteröidy</a>
+                    <a href=""><img src="img/flag_se.png" alt="sveflag" class="flag"></a>
+                </p>
+
+                <div class="dropdown small-view">
+                    <button class="btn btn-secondary dropdown-toggle v-align-mid pizeria-button" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        links
+                    </button>
+                    <ul class="dropdown-menu leftward pizeria-dropdown">
+                        <li><a class="dropdown-item" href="index.html">home</a></li>
+                        <li><a class="dropdown-item" href="#info">info</a></li>
+                        <li><a class="dropdown-item" href="#menu">menu</a></li>
+                        <li><a class="dropdown-item" href="#contact">kontakti</a></li>
+                        <li><a href="">kirjaudu</a></li>
+                        <li><a href="register.html">rekisteröidy</a></li>
+                        <li><a class="dropdown-item" href="">kieli: fi</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+          </div>
+        </div>
+    </header>
+
+    <div class="spacer"></div>
+
+    <div class="container">
+        <div class="alert alert-pizeria" role="alert">
+            <form>
+                <div class="mb-3">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="text" class="form-control" id="username">
+                </div>
+                <div class="mb-3">
+                    <label for="passwordInput1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="passwordInput1">
+                </div>
+                <div class="mb-3">
+                    <label for="passwordInput2" class="form-label">Re-enter Password</label>
+                    <input type="password" class="form-control" id="passwordInput2">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+
+     <div class="footer footer-bottom" id="contact">
+        <article>
+            <h2>Yhteystiedot</h2>
+            <div class="row">
+                <div class="col"> 
+                    <h3>Somet</h3>
+                    <p><a href="">Instagram</a></p>
+                    <p><a href="">Facebook</a></p>
+                </div>
+                <div class="col"> 
+                    <p>+358 4447544</p>
+                    <p>pentin-pizza@gmail.com</p>
+                    <p>autotie 6 13100, Hämeenlinna</p>
+                </div>
+                <div class="col"> 
+                    &copy; 2026 Pentin Pizza
+                    <br>
+                    <img src="img/pentinpizza.png" alt="logo">
+                </div>
+               
+                
+            </div>
+        </article>
+    </div>
+</body>
+</html>
