@@ -56,8 +56,17 @@
         <div class="alert alert-pizeria" role="alert">
             <form action="register.php" method="post">
                 <div class="mb-3">
-                    <label for="username" class="form-label">Username</label>
-                    <input type="text" class="form-control" id="username">
+                    <label for="Email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="etunimi" class="form-label">Etunimi</label>
+                    <input type="text" class="form-control" id="etunimi">
+                </div>
+                <div class="mb-3">
+                    <label for="sukunimi" class="form-label">Sukunimi</label>
+                    <input type="text" class="form-control" id="sukunimi">
                 </div>
                 <div class="mb-3">
                     <label for="passwordInput1" class="form-label">Password</label>
